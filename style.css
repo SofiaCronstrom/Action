@@ -11,7 +11,7 @@ body {
     background-image: url(orangeCloud.png), url(greenCloud.png);
     background-repeat: no-repeat;
    background-position: top 5px left 5px, bottom 5px right 5px;
-    background-size: 75%;
+    background-size: 80%;
 
     
 }
@@ -35,9 +35,9 @@ body {
 
   .box1{
     grid-column: 1 / span 6;
-    grid-row: 2/ span 1;
+    grid-row: 2/ span 2;
     font-family: "Roboto", sans-serif;
-    font-size: 5em; 
+    font-size: 4.5em; 
     color: #444E2A;
     background-color: #b0c5af;
     opacity: 0.8;
@@ -46,7 +46,12 @@ body {
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 10%;
-    height: 35vh;
+    height: 40vh;
+  }
+  #yes, #welcome{
+    font-family: "Jost", sans-serif;
+    font-size: 1.5em; 
+    color: #444E2A; 
   }
   
   .box2{
@@ -55,7 +60,7 @@ body {
       
     background-color: #F6F0EE;
     border-radius: 30px;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     width: 15vw;
     height: 40vh;
     margin-top: 80%;
@@ -66,7 +71,7 @@ body {
     grid-row: 2 / span 1;
     background-color: #F6F0EE;
     border-radius: 30px;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     width: 15vw;
     margin-top: 80%;
     
@@ -77,7 +82,7 @@ body {
     grid-row: 2 / span 1;
     background-color: #F6F0EE;
     border-radius: 30px;
-    opacity: 0.8;
+    /* opacity: 0.8; */
    width: 15vw;
    margin-top: 80%;
    
@@ -134,5 +139,17 @@ body {
       opacity: 0.8;
       font-size: 6em; 
       margin: 2%;
+  }
+  footer{
+      grid-column: 11 / span 4;
+    grid-row: 3 / span 2;
+    
+  }
+  #icon {
+      width: 30vw;
+      height: 30vh;
+      color: #a3f3a0;
+      opacity: 1;
+      margin-top: 60%;
   }
 
