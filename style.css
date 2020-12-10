@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   font-size: 14px;
     
 }
 body {
@@ -14,3 +15,124 @@ body {
 
     
 }
+.container {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    column-gap: 1%;
+    
+  }
+
+  .header{
+    grid-column: 1 / span 5;
+    grid-row: 1 / span 1;
+    padding: 5%;
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  #logo {
+      width: 30vw;
+  }
+
+  .box1{
+    grid-column: 1 / span 6;
+    grid-row: 2/ span 1;
+    font-family: "Roboto", sans-serif;
+    font-size: 5em; 
+    color: #444E2A;
+    background-color: #b0c5af;
+    opacity: 0.8;
+    border-radius: 70px;
+    padding: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    height: 35vh;
+  }
+  
+  .box2{
+      grid-column: 8 / span 1;
+      grid-row: 2 / span 1;
+      
+    background-color: #F6F0EE;
+    border-radius: 30px;
+    opacity: 0.8;
+    width: 15vw;
+    height: 40vh;
+    margin-top: 80%;
+  }
+
+  .box3{
+    grid-column: 9 / span 1;
+    grid-row: 2 / span 1;
+    background-color: #F6F0EE;
+    border-radius: 30px;
+    opacity: 0.8;
+    width: 15vw;
+    margin-top: 80%;
+    
+}
+
+.box4{
+    grid-column: 10 / span 1;
+    grid-row: 2 / span 1;
+    background-color: #F6F0EE;
+    border-radius: 30px;
+    opacity: 0.8;
+   width: 15vw;
+   margin-top: 80%;
+   
+}
+.text{
+    font-family: "Roboto", sans-serif;
+    color: #444E2A;
+    padding: 7%;
+    padding-top: 15%;
+    font-size: 70px;
+}
+.color {
+    font-family: "Jost", sans-serif;
+    color: #444E2A;
+    font-size: 6em;
+    text-align: center;
+    background-color: #FA8B31;
+    border-radius: 30px 30px 0 0;
+    height: 10vh;
+    padding: 10%;
+}
+.fas {
+    color: #FA8B31;
+    padding-left: 30%;
+    
+}
+#arrow{
+    padding-top: 90px;
+}
+#arrow2{
+    padding-top: 20px;
+}
+.fas:hover{
+    color: #93b89f
+}
+
+.nav {
+    grid-column: 8 / span 4;
+    grid-row: 1 / span 2;
+    font-family: "Jost", sans-serif;
+    color: #444E2A;
+    padding-top: 2%;
+
+  }
+  
+  .a, .b, .c {
+      display: inline-block;
+      text-align: center;
+      padding: 1%;
+      width: 20%;
+      cursor: pointer;
+      border-radius: 30px;
+      background-color: #b0c5af;
+      opacity: 0.8;
+      font-size: 6em; 
+      margin: 2%;
+  }
+
